@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+only post requests are accepted!
 
-Things you may want to cover:
+* a typical request would be like 
 
-* Ruby version
+{
+  "filters": {
+		"batch": "W23",
+    "highlight_black": "true"
+  },
+  "n": 10
+}
 
-* System dependencies
+* list of available filters
 
-* Configuration
+[
+  "app_answers","app_video_public","demo_day_video_public","highlight_black","highlight_latinx","highlight_women","batch","industries","isHiring","nonprofit","question_answers","regions","subindustry","tags","top_company","team_size","query"
+]
 
-* Database creation
+* when per_page and page are set n will ignored, by default n will be 100
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
