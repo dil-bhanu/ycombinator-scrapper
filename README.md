@@ -20,5 +20,7 @@ only post requests are accepted!
 
 * when per_page and page are set n will ignored, by default n will be 100
 
+* sample data can be found at https://github.com/dil-bhanu/ycombinator-scrapper/blob/main/data/120.csv
+
 
 
